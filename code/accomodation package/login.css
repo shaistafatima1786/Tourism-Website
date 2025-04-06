@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(gautam.jpg);  
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue; 
+    border-radius: 5px;
+    background: rgb(224, 237, 251, 0.6);
+    padding: 20px;
+    backdrop-filter: blur(8px);
+    width:25%;
+}
+
+.username {
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: 36px;
+}
+
+.password {
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: 36px;
+}
+
+.button {
+    width: 80%;
+    height: 35px;
+    margin-left: 36px;
+}
+
+button:hover {
+    background: rgb(248, 44, 3);
+    font-weight: bold;
+} 
+
+.text{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 12px;
+}
+
+.error {
+    width: calc(100% - 40px); 
+    height: 20px;
+    background-color: red;
+    color: white;
+    margin-left: 15px;
+    display: none; /* Initially hide the error message */
+}
+.username input,
+.password input,
+button {
+    width: calc(100% - 20px); /* Adjust width dynamically */
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 40px; /* Adjust height as needed */
+}
+
+.facebook-login,
+.google-login {
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.facebook-login:hover,
+.google-login:hover {
+    background-color: #2d4373; /* Darker shade of Facebook blue */
+}

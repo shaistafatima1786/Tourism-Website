@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now | Nepal Tourism</title>
+    <link rel="stylesheet" href="book_now.css">
+</head>
+<body>
+
+    <section class="booking-form">
+        <h2 align="center">Book Now with Best Options!!!</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tour">Select Tour:</label>
+            <select id="tour" name="tour" required>
+                <option value="">--Select Tour--</option>
+                <option value="Pashupatinath Temple Tour">Pashupatinath Temple Tour</option>
+                <option value="Boudhanath Stupa Tour">Boudhanath Stupa Tour</option>
+                <option value="Janaki Temple Tour">Janaki Temple Tour</option>
+                <option value="Swayambhunath">Janaki Temple Tour</option>
+                <option value="Manakamana Temple">Janaki Temple Tour</option>
+                <option value="Lumbini">Janaki Temple Tour</option>
+                <option value="Muktinath Temple">Janaki Temple Tour</option>
+            </select>
+
+            <label for="date">Tour Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit" onclick="submitForm()">Book Now</button>
+        </form>
+    </section>
+
+    <script>function submitForm() {
+        // Retrieve form data
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var tour = document.getElementById('tour').value;
+        var date = document.getElementById('date').value;
+    
+        // You can add further processing here, like sending the form data to a server or displaying a confirmation message
+        console.log("Form submitted!");
+        console.log("Name: " + name);
+        console.log("Email: " + email);
+        console.log("Selected Tour: " + tour);
+        console.log("Tour Date: " + date);
+    }
+    </script>
+</body>
+</html>

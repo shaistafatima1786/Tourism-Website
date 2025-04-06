@@ -1,0 +1,207 @@
+Body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img{
+    margin-right: 15px;
+    padding: 0;
+    padding-left: 50px;
+}
+.nav-links a{
+    text-decoration:none ;
+    color: black ;
+    padding: 20px;
+    float: left;
+}
+.nav-links{
+    overflow: hidden;
+    display:flex;
+    list-style: none;
+    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 90px;
+}
+.nav-links a:hover{
+    color:red;
+}
+h1{
+    text-transform: uppercase;
+    margin-right: 0px;
+    padding: 0;
+
+}
+.header {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+    background-image: url('./home image.png'); /* Fix the image URL */
+    background-size: cover; /* Ensure the image covers the entire header */
+    padding-bottom: 1000px; /* This seems excessive, consider adjusting */
+    width: 100%;
+    transform: scale(1.1); 
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.search{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:30%;
+    min-height: 30vh;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width:70%;
+    max-width:400px;
+    background: rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    border-radius: 40px;
+    padding:3px 7px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border:0;
+    outline:none;
+    padding: 3px 2px;
+    font-size: 20px;
+    color:#282732;
+}
+::placeholder{
+    color:#636365;
+}
+.search-bar button img{
+    width:20px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    cursor:pointer;
+}
+body,.footer-inform ul {
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color:black;
+}
+.footer-inform{
+    background-color:aliceblue;
+    overflow: hidden;
+    display:flex;
+    list-style: none;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+
+.footer-inform a:hover{
+    color:red;
+}
+
+.footer-links a:hover{
+    color:red;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black; 
+}
+.footer-links{
+    margin-top: 20px;
+    padding-left:  180px;
+}
+
+.social-media {
+    margin-top: 20px; 
+    padding-left:  180px; 
+}
+
+.social-media h4 {
+    color: black; 
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.social-media a {
+    text-decoration: none;
+    color: black; 
+}
+
+
+.travel-interest {
+    margin-top: 20px; 
+    padding-left:  180px; 
+}
+
+.travel-interest h4 {
+    color: black; 
+}
+
+.travel-interest ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.travel-interest li {
+    margin-bottom: 8px;
+}
+
+.travel-interest a {
+    text-decoration: none;
+    color: black; 
+}
+
+.support {
+    margin-top: 20px; 
+    padding-left:  150px; 
+}
+
+.support h4 {
+    color: black; 
+}
+
+.support ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.support li {
+    margin-bottom: 8px;
+}
+
+.support a {
+    text-decoration: none;
+    color: black; 
+}
+

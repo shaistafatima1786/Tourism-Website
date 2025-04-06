@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Activities</title>
+    <style>
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Navigation Menu Styles */
+nav {
+    background-color: #303F9F;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero-section {
+    background-color: #E91E63;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FF9800;
+}
+
+/* featured activities section */
+#featured-activities {
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.activity-card {
+    width: 300px; /* Adjusted width */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay h3 {
+    margin-top: 0;
+}
+
+.activity-card:hover .overlay {
+    opacity: 1;
+}
+
+.activity-card:hover img {
+    transform: scale(1.1);
+}
+
+.read-more {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    text-align: center; /* Center align the heading */
+}
+
+
+
+/* Journal Section Styles */
+#journal-section {
+    background-color: #9C27B0;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#journal-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Booking Section Styles */
+#booking-section {
+    padding: 50px 0;
+}
+
+#booking-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #607D8B;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Tourism Activities</h1>
+            <!-- Add logo or slogan here if needed -->
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#featured-activities">Featured Activities</a></li>
+                <li><a href="#journal-section">Journal</a></li>
+                <li><a href="#booking-section">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero-section">
+        <div class="container">
+            <h2>Welcome to Nepal</h2>
+            <!-- Add hero image or slideshow here -->
+            <p>Explore the rich cultural heritage of Nepal and immerse yourself in unique experiences.</p>
+            <a href="#booking-section" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="featured-activities">
+        <div class="container">
+            <h2>Featured Activities</h2>
+            <div class="activity-card">
+                <div class="image-wrapper">
+                    <img src="images/bhaktapur-bisketjatra.webp" alt="Bisket">
+                    <div class="overlay">
+                        <h3>Bisket Jatra/Nepal New Year (Baisakh/April)</h3>
+                        <p>Nepal follows Bikram Sambat as its national calendar which is about 56.7 years ahead of the Gregorian calendar. And Baisakh 1 is the New Year for Nepal and Bisket Jatra falls in this day. In this day, there is a grand celebration in places like Bhaktapur and Banepa, which is a delight to watch.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+                    <div class="activity-card">
+                    <div class="image-wrapper">
+                        <img src="images/indra jatra.jpg" alt="indra">
+                        <div class="overlay">
+                            <h3>Indra Jatra (Ashwin/August)</h3>
+                            <p>Indra Jatra is the festival started by Gunkamadeva to commemorate the founding of the city of Kathmandu and is celebrated by huge enthusiastic participation from people of Kathmandu valley.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="activity-card">
+                        <div class="image-wrapper">
+                            <img src="images/mahashivratri.jpg" alt="Shivaratri">
+                            <div class="overlay">
+                                <h3>Maha Shivaratri (Falgun/February)</h3>
+                                <p>Maha Shivaratri is also a very important Hindu festival which is celebrated to thank Lord Shiva for saving the world by drinking the poison that came out of Samundra Manthan (churning of Sea). Pashupatinath is visited by thousands of religious pilgrims.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="activity-card">
+                            <div class="image-wrapper">
+                                <img src="images/holi.jpg" alt="holi">
+                                <div class="overlay">
+                                    <h3>Holi (Chaitra/March)</h3>
+                                    <p>Holi is the festival of colors which is celebrated by putting colors on other people’s face and splashing colorful water over them. It is celebrated at the end of the winter season on the last full moon day of the lunar month Phalgun (February/ March). This festival is also known as the festival of love and affection.</p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+          
+        </div>
+    </section>
+    
+
+    <!-- Journal Section -->
+    <section id="journal-section">
+        <div class="container">
+            <h2>Journal</h2>
+            <div class="journal-entry">
+                <h3>Exploring Kathmandu Valley</h3>
+                <p>Discover the ancient temples, palaces, and bustling streets of Kathmandu Valley.</p>
+            </div>
+            <div class="journal-entry">
+                <h3>Chitwan Jungle Safari</h3>
+                <p>Embark on a thrilling safari adventure and spot rare wildlife in Chitwan National Park.</p>
+            </div>
+            <div class="journal-entry">
+                <h3>Lumbini Pilgrimage Tour</h3>
+                <p>Visit the birthplace of Lord Buddha and explore sacred monasteries and stupas in Lumbini.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking-section">
+        <div class="container">
+            <h2>Book Your Experience</h2>
+            <!-- Booking Form will be added here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tourism Activities</p>
+            <!-- Add social media icons or additional links here -->
+        </div>
+    </footer>
+</body>
+</html>

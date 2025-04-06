@@ -1,0 +1,110 @@
+body,.footer-inform ul {
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color:black;
+}
+.footer-inform{
+    background-color:aliceblue;
+    overflow: hidden;
+    display:flex;
+    list-style: none;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+
+.footer-inform a:hover{
+    color:red;
+}
+
+.footer-links a:hover{
+    color:red;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black; 
+}
+.footer-links{
+    margin-top: 20px;
+    padding-left:  180px;
+}
+
+.social-media {
+    margin-top: 20px; 
+    padding-left:  180px; 
+}
+
+.social-media h4 {
+    color: black; 
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.social-media a {
+    text-decoration: none;
+    color: black; 
+}
+
+
+.travel-interest {
+    margin-top: 20px; 
+    padding-left:  180px; 
+}
+
+.travel-interest h4 {
+    color: black; 
+}
+
+.travel-interest ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.travel-interest li {
+    margin-bottom: 8px;
+}
+
+.travel-interest a {
+    text-decoration: none;
+    color: black; 
+}
+
+.support {
+    margin-top: 20px; 
+    padding-left:  150px; 
+}
+
+.support h4 {
+    color: black; 
+}
+
+.support ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.support li {
+    margin-bottom: 8px;
+}
+
+.support a {
+    text-decoration: none;
+    color: black; 
+}
+

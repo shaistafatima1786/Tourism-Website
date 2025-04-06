@@ -1,0 +1,720 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/attr_123765_20191016165144.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 294px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 37px 314px 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 114px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 610px;
+}
+
+.u-section-2 .u-list-1 {
+  grid-template-rows: repeat(1, auto);
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.u-section-2 .u-repeater-1 {
+  grid-template-columns: repeat(3, 33.3333%);
+  min-height: 490px;
+  grid-gap: 0px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 20px 30px;
+}
+
+.u-section-2 .u-image-1 {
+  height: 219px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 20px auto 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-btn-1 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none none solid;
+  text-transform: uppercase;
+  margin: 20px auto 0 0;
+  padding: 2px 0;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 20px 30px;
+}
+
+.u-section-2 .u-image-2 {
+  height: 219px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-text-3 {
+  margin: 20px auto 0 0;
+}
+
+.u-section-2 .u-text-4 {
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-btn-2 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none none solid;
+  text-transform: uppercase;
+  margin: 20px auto 0 0;
+  padding: 2px 0;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 20px 30px;
+}
+
+.u-section-2 .u-image-3 {
+  height: 219px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-text-5 {
+  margin: 20px auto 0 0;
+}
+
+.u-section-2 .u-text-6 {
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-btn-3 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none none solid;
+  text-transform: uppercase;
+  margin: 20px auto 0 0;
+  padding: 2px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: repeat(3, 33.333333333333336%);
+    min-height: 404px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 173px;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 173px;
+  }
+
+  .u-section-2 .u-image-3 {
+    height: 173px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: repeat(2, 50%);
+    min-height: 928px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 205px;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 205px;
+  }
+
+  .u-section-2 .u-image-3 {
+    height: 205px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 355px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 355px;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-image-3 {
+    height: 355px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-image-1 {
+    height: 218px;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 218px;
+  }
+
+  .u-section-2 .u-image-3 {
+    height: 218px;
+  }
+} .u-section-3 {
+  background-image: none;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 541px;
+}
+
+.u-section-3 .u-layout-wrap-1 {
+  margin: 60px auto 60px 0;
+}
+
+.u-section-3 .u-layout-cell-1 {
+  min-height: 431px;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 30px 60px;
+}
+
+.u-section-3 .u-text-1 {
+  margin: 53px 60px 0 42px;
+}
+
+.u-section-3 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-3 .u-text-2 {
+  margin: 34px 0 0;
+}
+
+.u-section-3 .u-btn-2 {
+  margin: 37px auto 0;
+}
+
+.u-section-3 .u-image-1 {
+  min-height: 431px;
+  background-image: url("images/Gosainkunda_Lake.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-container-layout-2 {
+  padding: 30px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 465px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 355px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-right: 42px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 355px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 382px;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 272px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 618px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 408px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 467px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 257px;
+  }
+}.u-section-4 .u-sheet-1 {
+  min-height: 750px;
+}
+
+.u-section-4 .u-layout-wrap-1 {
+  margin: 65px auto 65px 0;
+}
+
+.u-section-4 .u-image-1 {
+  min-height: 315px;
+  background-image: url("images/devghat-img.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-4 .u-layout-cell-2 {
+  min-height: 315px;
+}
+
+.u-section-4 .u-container-layout-2 {
+  padding: 30px 60px;
+}
+
+.u-section-4 .u-text-1 {
+  margin: 26px 0 0;
+}
+
+.u-section-4 .u-text-2 {
+  margin: 21px 0 0;
+}
+
+.u-section-4 .u-btn-1 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px auto 0 0;
+}
+
+.u-section-4 .u-layout-cell-3 {
+  min-height: 315px;
+}
+
+.u-section-4 .u-container-layout-3 {
+  padding: 30px 60px;
+}
+
+.u-section-4 .u-text-3 {
+  margin: 0;
+}
+
+.u-section-4 .u-text-4 {
+  margin: 20px 0 0;
+}
+
+.u-section-4 .u-btn-2 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  border-style: none none solid;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px auto 0 0;
+  padding: 7px 0;
+}
+
+.u-section-4 .u-image-2 {
+  min-height: 315px;
+  background-image: url("images/bindabasini-temple.png");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-4 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-4 .u-btn-1 {
+    height: 38px;
+    width: 99px;
+    padding: 7px 0;
+  }
+
+  .u-section-4 .u-btn-2 {
+    height: 38px;
+    width: 99px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-4 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-4 .u-layout-cell-3 {
+    min-height: 100px;
+  }
+
+  .u-section-4 .u-container-layout-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 1780px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}.u-section-5 .u-sheet-1 {
+  min-height: 501px;
+}
+
+.u-section-5 .u-text-1 {
+  font-weight: 700;
+  margin: 59px auto 0;
+}
+
+.u-section-5 .u-form-1 {
+  width: 570px;
+  margin: 29px auto 59px;
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-form-1 {
+    width: 340px;
+  }
+}.u-section-6 .u-sheet-1 {
+  min-height: 400px;
+}.u-section-7 .u-sheet-1 {
+  min-height: 400px;
+}.u-section-8 .u-sheet-1 {
+  min-height: 177px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(57, 46, 46);
+  color: white;
+  text-align: center;
+  padding: 20px 20px; /* Adjusted padding */
+}
+
+.navbar img {
+  height: 70px; /* Reduced image height */
+  margin-right: 10px; /* Reduced margin */
+}
+
+.navbar h1 {
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center align the heading */
+  flex-grow: 1; /* Let it take up remaining space */
+  font-size: 24px; /* Adjusted font size */
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px; /* Reduced margin */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat, sans-serif;
+}
+
+.dropdowns ul li a {
+  margin: 10px; /* Reduced margin */
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdowns ul li a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(88, 89, 91, 0.8);
+  padding: 10px 15px; /* Adjusted padding */
+}
+
+body,.footer-inform ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+h4{
+  color:black;
+}
+.footer-inform{
+  background-color:aliceblue;
+  overflow: hidden;
+  display:flex;
+  list-style: none;
+  margin-right: 15px;
+  font-weight: bold;
+  background-image: url(images/mt-everest.webp);
+}
+
+.footer-inform a:hover{
+  color:red;
+}
+
+.footer-links a:hover{
+  color:red;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black; 
+}
+.footer-links{
+  margin-top: 20px;
+  padding-left:  180px;
+}
+
+.social-media {
+  margin-top: 20px; 
+  padding-left:  180px; 
+}
+
+.social-media h4 {
+  color: black; 
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0px;
+}
+
+
+.social-media a {
+  text-decoration: none;
+  color: black; 
+}
+
+
+.travel-interest {
+  margin-top: 20px; 
+  padding-left:  180px; 
+}
+
+.travel-interest h4 {
+  color: black; 
+}
+
+.travel-interest ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.travel-interest li {
+  margin-bottom: 8px;
+}
+
+.travel-interest a {
+  text-decoration: none;
+  color: black; 
+}
+
+.support {
+  margin-top: 20px; 
+  padding-left:  150px; 
+}
+
+.support h4 {
+  color: black; 
+}
+
+.support ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.support li {
+  margin-bottom: 8px;
+}
+
+.support a {
+  text-decoration: none;
+  color: black; 
+}

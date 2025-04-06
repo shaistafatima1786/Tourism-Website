@@ -1,0 +1,429 @@
+Body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img{
+    margin-right: 15px;
+    padding: 0;
+    padding-left: 50px;
+}
+.nav-links a{
+    text-decoration:none ;
+    color: black ;
+    padding: 20px;
+    float: left;
+}
+.nav-links{
+    overflow: hidden;
+    display:flex;
+    list-style: none;
+    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 90px;
+}
+.nav-links a:hover{
+    color:red;
+}
+h1{
+    text-transform: uppercase;
+    margin-right: 0px;
+    padding: 0;
+
+}
+.header {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+    background-image: url('./home image.png'); /* Fix the image URL */
+    background-size: cover; /* Ensure the image covers the entire header */
+    padding-bottom: 1000px; /* This seems excessive, consider adjusting */
+    width: 100%;
+    transform: scale(1.1); 
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* .image-link{
+    background-image: url(./home\ image.png);
+    padding: 0;
+    font-family:fantasy;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 1000px;
+    background-size: cover;
+    margin-bottom: 40px;
+    width:100%;
+}
+.image-link p{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+    font-size: 50px; 
+} */
+
+body,.footer-inform ul {
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color:white;
+}
+.footer-inform{
+    background-color: black;
+    overflow: hidden;
+    display:flex;
+    list-style: none;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+.footer-links a:hover{
+    color:red;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff; 
+}
+.footer-links{
+    margin-top: 100px;
+    padding-left:  40px;
+}
+
+
+.travel-interest {
+    margin-top: 20px; 
+    padding-left:  50px; 
+}
+
+.travel-interest h4 {
+    color: #fff; 
+}
+
+.travel-interest ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.travel-interest li {
+    margin-bottom: 8px;
+}
+
+.travel-interest a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.student-section {
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    padding-left: 100px;
+}
+
+.student-section img {
+    margin-top: 20px;
+}
+
+.student-section a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.search{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:30%;
+    min-height: 30vh;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width:70%;
+    max-width:400px;
+    background: rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    border-radius: 40px;
+    padding:3px 7px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border:0;
+    outline:none;
+    padding: 3px 2px;
+    font-size: 20px;
+    color:#282732;
+}
+::placeholder{
+    color:#636365;
+}
+.search-bar button img{
+    width:20px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    cursor:pointer;
+}
+
+/* .box-position{
+    border:4px solid rgb(255, 255, 255);
+    width:2070px;
+    height:3250px;
+    position: relative;
+    top:-15px;
+    left:-280px; 
+    background-color:  #ffffff;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+   }
+  
+   .section-container {
+    max-width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.section-container .img1  .img2  .img3  .img4   .img5  .img6 .img7 {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1); 
+} */
+
+.section-container p {
+    margin-top: 10px; 
+}
+
+
+.box-position {
+    border: 4px solid rgb(255, 255, 255);
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.section-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+.culture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.culture  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.culture .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+
+.mountains {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+.mountains  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.mountains .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+.wildlife{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.wildlife  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.wildlife .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+.heritage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+.heritage  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.heritage .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+
+.affordable{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.affordable  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.affordable .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+
+.religion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-left: 70px;
+}
+
+.religion  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.religion .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+
+.cuisine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuisine  .p  {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.cuisine .img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    transform: scale(1.1);
+}
+/* Responsive adjustments for different views */
+@media screen and (max-width: 768px) {
+    /* Tablet and mobile styles */
+    .nav-links {
+        display: none; /* Hide navigation links in small screens */
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 60px; /* Adjust based on your header height */
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links a {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile styles */
+    .search-bar {
+        width: 90%;
+    }
+
+    .section-container {
+        padding: 10px;
+    }
+}
